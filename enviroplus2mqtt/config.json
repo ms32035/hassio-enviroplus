@@ -11,6 +11,7 @@
     "i386"
   ],
   "startup": "application",
+  "auto_uart": true,
   "boot": "auto",
   "options": {
     "host": "",
