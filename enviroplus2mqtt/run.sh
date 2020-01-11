@@ -16,6 +16,7 @@ python3 /enviroplus2mqtt/enviroplus-mqtt/src/main.py \
 --port $(jq --raw-output ".port" $CONFIG_PATH) \
 --username $(jq --raw-output ".username" $CONFIG_PATH) \
 --password $(jq --raw-output ".password" $CONFIG_PATH) \
+--prefix $(jq --raw-output ".prefix" $CONFIG_PATH) \
 --client-id $(jq --raw-output ".client_id" $CONFIG_PATH) \
 --interval $(jq --raw-output ".interval" $CONFIG_PATH) \
 --delay $(jq --raw-output ".delay" $CONFIG_PATH) $PMS5003
