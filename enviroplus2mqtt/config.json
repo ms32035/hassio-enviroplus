@@ -1,6 +1,6 @@
 {
   "name": "enviroplus2mqtt",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "slug": "enviroplus2mqtt",
   "description": "Enviro+ to MQTT",
   "arch": [
@@ -11,8 +11,9 @@
     "i386"
   ],
   "startup": "application",
-  "auto_uart": true,
   "boot": "auto",
+  "devices": ["/dev/i2c-1:/dev/i2c-1:rwm"],
+  "devicetree": true,
   "options": {
     "host": "",
     "port": 0,
