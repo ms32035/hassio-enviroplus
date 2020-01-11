@@ -3,7 +3,7 @@
 CONFIG_PATH=/data/options.json
 
 DATA_PATH=$(jq --raw-output ".data_path" $CONFIG_PATH)
-if [[ $(jq --raw-output ".data_path" $CONFIG_PATH) == "true" ]]
+if [[ $(jq --raw-output ".data_path" $CONFIG_PATH) == "true" ]] then
   PMS5003="--use-5003"
 else
   PMS5003=""
