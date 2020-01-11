@@ -1,0 +1,37 @@
+{
+  "name": "enviroplus2mqtt",
+  "version": "0.0.1",
+  "slug": "enviroplus2mqtt",
+  "description": "Enviro+ to MQTT",
+  "arch": [
+    "armhf",
+    "armv7",
+    "aarch64",
+    "amd64",
+    "i386"
+  ],
+  "startup": "application",
+  "boot": "auto",
+  "options": {
+    "host": "",
+    "port": 0,
+    "username": "",
+    "password": "",
+    "prefix": "enviroplus",
+    "client_id": "enviroplus2mqtt",
+    "interval": 5,
+    "delay": 15,
+    "use_pms5003": false
+  },
+  "schema": {
+    "host": "string",
+    "port": "integer",
+    "username": "string?",
+    "password": "string?",
+    "prefix": "string?",
+    "client_id": "string?",
+    "interval": "integer?",
+    "delay": "integer?",
+    "use_pms5003": "boolean"
+  }
+}
