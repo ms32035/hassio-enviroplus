@@ -24,14 +24,14 @@
     "use_pms5003": false
   },
   "schema": {
-    "host": "string",
-    "port": "integer",
-    "username": "string?",
-    "password": "string?",
-    "prefix": "string?",
-    "client_id": "string?",
-    "interval": "integer?",
-    "delay": "integer?",
-    "use_pms5003": "boolean"
+    "host": "str",
+    "port": "int(0,65536)?",
+    "username": "str?",
+    "password": "str?",
+    "prefix": "str?",
+    "client_id": "str?",
+    "interval": "int?",
+    "delay": "int?",
+    "use_pms5003": "bool"
   }
 }
