@@ -1,6 +1,6 @@
 {
   "name": "enviroplus2mqtt",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "slug": "enviroplus2mqtt",
   "description": "Enviro+ to MQTT",
   "arch": [
