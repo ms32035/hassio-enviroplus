@@ -13,12 +13,12 @@
   "startup": "application",
   "boot": "auto",
   "gpio": true,
-  "full_access": true,
   "devices": [
     "/dev/i2c-1:/dev/i2c-1:rwm",
     "/dev/mem:/dev/mem:rwm",
     "/dev/gpiomem:/dev/gpiomem:rwm",
-    "/dev/ttyAMA0:/dev/ttyAMA0:rwm"
+    "/dev/ttyAMA0:/dev/ttyAMA0:rwm",
+    "/proc/device-tree/system/linux,revision:/proc/device-tree/system/linux,revision:r"
   ],
   "devicetree": true,
   "options": {
