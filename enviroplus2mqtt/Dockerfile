@@ -12,9 +12,9 @@ RUN curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py \
     && python3 get-pip.py \
     && pip install -r requirements.txt \
     && mkdir /enviroplus2mqtt \
-    && git clone https://github.com/hotplot/enviroplus-mqtt.git /enviroplus2mqtt/enviroplus-mqtt \
+    && git clone https://github.com/ms32035/enviroplus-mqtt.git /enviroplus2mqtt/enviroplus-mqtt \
     && cd enviroplus2mqtt/enviroplus-mqtt \
-    && git reset --hard 06a5501ca208198fabe7cfcf99f2b25ef90b019e
+    && git reset --hard d805e778529fd9c28f0a24813121e55cb6c8f68a
 
 
 COPY run.sh "/run.sh"
