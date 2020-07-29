@@ -14,7 +14,7 @@ RUN curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py \
     && mkdir /enviroplus2mqtt \
     && git clone https://github.com/ms32035/enviroplus-mqtt.git /enviroplus2mqtt/enviroplus-mqtt \
     && cd enviroplus2mqtt/enviroplus-mqtt \
-    && git reset --hard d805e778529fd9c28f0a24813121e55cb6c8f68a
+    && git reset --hard 9ecbe1458e229600e7c0f54630209d8f2d9e1b93
 
 
 COPY run.sh "/run.sh"
