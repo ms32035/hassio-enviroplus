@@ -4,8 +4,7 @@ FROM $BUILD_FROM
 ENV TERM=xterm
 ENV LANG C.UTF-8
 
-RUN echo "nameserver 1.1.1.1" > /etc/resolv.conf \
-    && apk add --update --no-cache git curl ncurses gcc python3 python3-dev musl-dev make linux-headers libffi-dev
+RUN apk add --update --no-cache git curl ncurses gcc python3 python3-dev musl-dev make linux-headers libffi-dev
 
 ADD requirements.txt .
 
