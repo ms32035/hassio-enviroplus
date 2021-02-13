@@ -18,7 +18,7 @@
     "/dev/ttyAMA0:/dev/ttyAMA0:rwm"
   ],
   "devicetree": true,
-  "kernel_modules": true,
+  "full_access": true,
   "options": {
     "host": "",
     "port": 0,
