@@ -1,6 +1,6 @@
 {
   "name": "enviroplus2mqtt",
-  "version": "0.0.24",
+  "version": "0.0.25",
   "slug": "enviroplus2mqtt",
   "description": "Enviro+ to MQTT",
   "arch": [
@@ -15,7 +15,7 @@
     "/dev/i2c-1",
     "/dev/mem",
     "/dev/gpiomem",
-    "/dev/ttyAMA0:/dev/ttyAMA0:rwm"
+    "/dev/ttyAMA0"
   ],
   "devicetree": true,
   "full_access": true,
