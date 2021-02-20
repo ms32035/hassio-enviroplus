@@ -1,6 +1,6 @@
 {
   "name": "enviroplus2mqtt",
-  "version": "0.0.26",
+  "version": "0.0.27",
   "slug": "enviroplus2mqtt",
   "description": "Enviro+ to MQTT",
   "arch": [
@@ -10,7 +10,6 @@
   ],
   "startup": "application",
   "boot": "auto",
-  "gpio": true,
   "devicetree": true,
   "full_access": true,
   "options": {
