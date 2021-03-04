@@ -1,6 +1,6 @@
 {
   "name": "enviroplus2mqtt",
-  "version": "0.0.28",
+  "version": "0.0.29",
   "slug": "enviroplus2mqtt",
   "description": "Enviro+ to MQTT",
   "arch": [
@@ -11,6 +11,12 @@
   "startup": "application",
   "boot": "auto",
   "gpio": true,
+  "devices": [
+    "/dev/i2c-1",
+    "/dev/mem",
+    "/dev/gpiomem",
+    "/dev/ttyAMA0"
+  ],
   "options": {
     "host": "",
     "port": 0,
