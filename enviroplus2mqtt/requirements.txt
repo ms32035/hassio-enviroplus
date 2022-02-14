@@ -1,3 +1,4 @@
+git+https://github.com/pimoroni/bme280-python.git#egg=pimoroni-bme280&subdirectory=library
 git+https://github.com/pimoroni/enviroplus-python.git#egg=enviroplus&subdirectory=library
 paho-mqtt==1.6.1
 rpi.gpio==0.7.1
